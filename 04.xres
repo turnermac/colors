@@ -1,0 +1,67 @@
+Xft.dpi:                    96
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+URxvt.depth: 0
+
+URxvt.intensityStyles:  false                                       
+! Turn it on here... (then boldFont)
+URxvt.allow_bold:       false                                        
+URxvt.font:             xft:Ubuntu Mono:style=Regular:pixelsize=13
+! ... but put this on Regular, else the ls output is overly fat
+URxvt.boldFont:         xft:Ubuntu Mono:style=Bold:pixelsize=13  
+URxvt.saveLines:        8192
+
+
+! Fix font space
+! any larger than -1 I dont like
+URxvt*letterSpace: 0  
+
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt*scrollTtyOuput: false
+URxvt*scrollWidthBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/light-firefox
+URxvt.matcher.button: 1
+URxvt.internalBorder: 30
+
+! special
+*.foreground:   #ab9bab
+*.background:   #1b181b
+*.cursorColor:  #ab9bab
+
+! black
+*.color0:       #1b181b
+*.color8:       #776977
+
+! red
+*.color1:       #ca402b
+*.color9:       #ca402b
+
+! green
+*.color2:       #379a37
+*.color10:      #379a37
+
+! yellow
+*.color3:       #bb8a35
+*.color11:      #bb8a35
+
+! blue
+*.color4:       #516aec
+*.color12:      #516aec
+
+! magenta
+*.color5:       #7b59c0
+*.color13:      #7b59c0
+
+! cyan
+*.color6:       #159393
+*.color14:      #159393
+
+! white
+*.color7:       #ab9bab
+*.color15:      #f7f3f7
